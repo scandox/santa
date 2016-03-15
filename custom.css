@@ -1,0 +1,80 @@
+/*
+ * -- SANTA STYLES --
+ */
+.santa-container {
+    background: #1f8dd6;
+    z-index: 1;
+    overflow: auto;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    position: fixed !important; /* I know. Naughty. */
+}
+
+.santa {
+	width: 90%;
+	height: 70%;
+	margin: auto;
+	position: absolute;
+	top: 0px; left: 0; bottom: 0; right: 0;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+@media (min-width:768px) {
+
+  .santa {
+      width: 60%;
+  }
+
+}
+
+/* Main Text */
+.santa-main {
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    border: 3px solid white;
+    padding: 1em 1.6em;
+    font-weight: 100;
+    border-radius: 5px;
+    line-height: 1em;
+}
+
+/* Title Text */
+.santa-title {
+    font-size: 30px;
+    color: white;
+    letter-spacing: 0.05em;
+    opacity: 0.8;
+}
+
+button.pure-button-primary {
+ background: white;
+    color: #1f8dd6;
+    border-radius: 5px;
+    font-size: 120%;
+}
+
+/* Prevents button sticking to bottom when scrolling
+on smaller displays */
+button.pure-button-bottom {
+  margin-bottom: 40px;
+}
+
+a.pure-menu-link {
+  color: white;
+}
+
+a.pure-menu-link:focus {
+  background: none;
+}
+
+a.pure-menu-link:hover {
+  background: red;
+}
+
+a.pure-menu-link.highlight {
+  background: red;
+}
